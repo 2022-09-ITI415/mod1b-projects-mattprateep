@@ -18,7 +18,7 @@ public class AppleTree : MonoBehaviour {
 
     // Rate at which Apples will be instantiated
     public float secondsBetweenAppleDrops = 1f;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +28,16 @@ public class AppleTree : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        //Basic Movement
+        Vector3 pos = transform.position;
+        pos.x += speed * Time.deltaTime;
+        transform.position = pos;
+
+        //Changing Direction
+        if ( pos.x < -leftAndRightEdge ) {
+            speed = Mathf.Abs(speed);
+            } else if ( pos.x > leftAndRightEdge ) {
+            speed = -Mathf.Abs(speed);
+            }
     }
 }
