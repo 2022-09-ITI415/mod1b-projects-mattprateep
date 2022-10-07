@@ -307,8 +307,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: leftAndRightEdge
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 900325108949070655, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: m_Name
