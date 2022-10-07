@@ -339,10 +339,6 @@ PrefabInstance:
       propertyPath: chanceToChangeDirections
       value: 0.02
       objectReference: {fileID: 0}
-    - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
-      propertyPath: secondsBetweenAppleDrops
-      value: 0.75
-      objectReference: {fileID: 0}
     - target: {fileID: 900325108949070655, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: m_Name
       value: AppleTree
