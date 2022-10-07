@@ -311,6 +311,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1412153571407673325, guid: ec0ee328d89381f43b918851702539a1, type: 3}
+    - target: {fileID: -4717589351374523068, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: leftAndRightEdge
       value: 20
       objectReference: {fileID: 0}
@@ -321,6 +325,10 @@ PrefabInstance:
     - target: {fileID: 900325108949070655, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066817486815969039, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8682600258400769473, guid: 67d42ba587690544d94d6c48967aa4de, type: 3}
       propertyPath: m_RootOrder
